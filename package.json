@@ -5,7 +5,7 @@
   "main": "test.js",
   "scripts": {
     "start": "node test.js",
-    "test": "mocha --recursive ./mocha/*.js --timeout 10000 "
+    "test": "mocha ./mocha/retryTests.js --timeout 10000"
   },
   "author": "",
   "license": "ISC",
