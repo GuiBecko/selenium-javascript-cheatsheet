@@ -5,7 +5,7 @@
   "main": "test.js",
   "scripts": {
     "start": "node test.js",
-    "test": "mocha ./mocha/retryTests.js --timeout 10000"
+    "test": "mocha --require ././mocha/hooks/roothooks/hooks.js ./mocha/hooks/roothooks/test.js --timeout 10000"
   },
   "author": "",
   "license": "ISC",
